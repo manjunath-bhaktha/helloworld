@@ -12,3 +12,5 @@ RESOURCES += \
 target.path = /usr/bin
 target.files += $${OUT_PWD}/$${TARGET}
 target.CONFIG = no_check_exist executable
+
+INSTALLS += target
